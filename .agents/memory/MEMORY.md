@@ -1,0 +1,2 @@
+- [CattleAI predict service](predict-service.md) — Flask on port 5000; confidence is 0-1 fraction; labels must match train.py alphabetical sort exactly.
+- [CattleAI training](training.md) — EfficientNetB0 two-phase transfer learning; run as a workflow (not inline) to avoid timeout; ~10 min CPU.

@@ -1,0 +1,56 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "Jbg5Of0Zk5rLQJ8bqB5DM"
+uri = "file://artifacts/cattle-ai/public/breeds/angus.png"
+type = "image"
+title = "Angus cow"
+
+[[generated]]
+id = "qoaZtSDZLEvb_0sETLLOM"
+uri = "file://artifacts/cattle-ai/public/breeds/ayrshire.png"
+type = "image"
+title = "Ayrshire cow"
+
+[[generated]]
+id = "V8C9cq31krU2kCI5dyrXN"
+uri = "file://artifacts/cattle-ai/public/breeds/brown-swiss.png"
+type = "image"
+title = "Brown Swiss cow"
+
+[[generated]]
+id = "JGNDZ0c3fRjnAtSeJ5xFu"
+uri = "file://artifacts/cattle-ai/public/breeds/hereford.png"
+type = "image"
+title = "Hereford cow"
+
+[[generated]]
+id = "tS-7X3BnhZRb2RKY8aHL4"
+uri = "file://artifacts/cattle-ai/public/breeds/holstein-friesian.png"
+type = "image"
+title = "Holstein cow"
+
+[[generated]]
+id = "omOIla_u2y4fiD0H4mYk8"
+uri = "file://artifacts/cattle-ai/public/breeds/jaffarabadi.png"
+type = "image"
+title = "Jaffarabadi buffalo"
+
+[[generated]]
+id = "eNSqXGO7mWAPLZxbriiHy"
+uri = "file://artifacts/cattle-ai/public/breeds/jersey.png"
+type = "image"
+title = "Jersey cow"
+
+[[generated]]
+id = "Nnss0JiLHv9uRC8zsn9jA"
+uri = "file://artifacts/cattle-ai/public/breeds/red-dane.png"
+type = "image"
+title = "Red Dane cow"
+
+[[generated]]
+id = "PxAd1VTxZ3GVAL39Fcpwv"
+uri = "file://artifacts/cattle-ai/public/breeds/simmental.png"
+type = "image"
+title = "Simmental cow"

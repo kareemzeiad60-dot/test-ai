@@ -1,0 +1,11 @@
+# Large files
+*.h5
+cattle_model.h5
+*.pkl
+*.bin
+*.model
+*.pth
+
+# Supabase
+.supabase/
+.github/workflows/
