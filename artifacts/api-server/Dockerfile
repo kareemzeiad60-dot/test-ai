@@ -2,14 +2,18 @@ FROM node:20-alpine
 
 WORKDIR /app
 
-COPY package.json pnpm-lock.yaml ./
-
+# تثبيت pnpm
 RUN npm install -g pnpm
-RUN pnpm install --frozen-lockfile
 
+# نسخ الملفات
 COPY . .
 
-RUN pnpm build
+# تثبيت dependencies بدون build scripts
+RUN pnpm install --no-scripts
+
+# بناء api-server فقط
+WORKDIR /app/artifacts/api-server
+RUN npm run build
 
 EXPOSE 8080
 
