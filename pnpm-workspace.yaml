@@ -124,3 +124,14 @@ overrides:
   rollup>@rollup/rollup-win32-ia32-msvc: '-'
   rollup>@rollup/rollup-win32-x64-gnu: '-'
   rollup>@rollup/rollup-win32-x64-msvc: '-'
+  onlyBuiltDependencies:
+  - core-js
+  - esbuild
+  pnpm-version: '9.0.0'
+
+onlyBuiltDependencies:
+  - core-js
+  - esbuild
+  
+  
+  
